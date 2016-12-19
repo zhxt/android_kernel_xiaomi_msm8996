@@ -2032,6 +2032,10 @@ source "block/Kconfig"
 config PREEMPT_NOTIFIERS
 	bool
 
+config HOTPLUG
+    bool
+    default y
+
 config PADATA
 	depends on SMP
 	bool
